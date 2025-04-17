@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Courses | Home</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    nav {
+      background-color: #1e1e2f;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-button {
+      background-color: #3a3a5c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: #57578d;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">CourseMaster</div>
+    <div class="nav-buttons">
+      <button class="nav-button" onclick="location.href='home.html'">Home</button>
+      <button class="nav-button" onclick="location.href='courses.html'">Courses</button>
+      <button class="nav-button" onclick="location.href='aboutus.html'">About Us</button>
+      <button class="nav-button" onclick="location.href='pricing.html'">Pricing</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to CourseMaster</h1>
+    <p>Your destination for top-quality online courses from expert instructors. Learn at your own pace, anywhere, anytime.</p>
+  </section>
+
+  <section class="content">
+    <h2>Why Choose Us?</h2>
+    <p>We provide a wide variety of courses covering tech, business, personal development, and more. Our platform is user-friendly, affordable, and trusted by thousands of learners around the world.</p>
+  </section>
+
+</body>
+</html>
